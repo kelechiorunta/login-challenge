@@ -28,5 +28,4 @@ export default NextAuth({
       return url.startsWith(baseUrl) ? url : baseUrl;
     },
   },
-  debug: true,
 });
