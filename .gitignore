@@ -9,6 +9,9 @@
 # testing
 /coverage
 
+.jsconfig.json
+.postcss.config.mjs
+
 # next.js
 /.next/
 /out/

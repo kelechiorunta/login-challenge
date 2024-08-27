@@ -9,9 +9,13 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@next-auth/firebase-adapter": "^2.0.1",
+    "firebase": "^10.13.0",
+    "next": "14.2.6",
+    "next-auth": "^4.24.7",
     "react": "^18",
     "react-dom": "^18",
-    "next": "14.2.6"
+    "vercel": "^37.1.2"
   },
   "devDependencies": {
     "postcss": "^8",
