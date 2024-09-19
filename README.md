@@ -29,7 +29,7 @@ Environment Variables: Stored Firebase configuration and credentials in environm
 
 5. Troubleshooting Errors /Present Challenge
 504 Server Error:
-Encountered a 504 error due to server issues or misconfigurations. Investigated logs to diagnose and fix the problem. Currently, unable to fix this. Still working on it to enable users login.
+Encountered a 504 error due to server issues or misconfigurations. Investigated logs to diagnose and fix the problem. I finally diagonsed that the .env CLIENT_ID and CLIENT_SECRET were not properly implemented and got them fixed by setting them in my google account. It is now working properly.
 
 6. Git Configuration
 Ignoring Sensitive Files: Added sensitive configuration files like jsconfig.json, next.config.mjs, package-lock.json, package.json, postcss.config.mjs, and tailwind.config.js to .gitignore to prevent them from being pushed to GitHub.
